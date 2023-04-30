@@ -1,0 +1,157 @@
+
+#contenedor {
+	
+  margin: auto;
+  max-width: 500px;
+  width: calc(100vw - size(main));
+  padding: 0px;
+  text-shadow: 1px 1px 4px #FB9AB5;
+    
+}
+
+#card {
+	
+  border: 5px solid #36EBA4;
+  
+  filter: drop-shadow(5px 10px 5px black);
+
+  border-radius: 10px;
+  
+  margin: auto;
+  
+  margin-top: 5em;
+  
+  height: 100%;
+  
+  max-height: 20em;
+  
+  width: calc(10em - 30px);
+  
+  padding: 0;
+  
+  display: flex;
+  
+  justify-content: space-around;
+  
+  border-radius: 5em;
+  
+	overflow: hidden;
+  transition: all 500ms;
+  transition-delay: 80ms;
+    
+}
+#card:hover {
+  height: 10em;
+  width: 115%;
+  max-height: calc(8.1em);
+  
+    
+}
+#card:hover #face {
+  margin-left: -15px;
+  transition: all 500ms;
+  transition-delay: 80ms;
+    
+}
+#card :not(#face) {
+
+    
+}
+#card:hover :not(#face) {
+  transition: all 500ms;
+  transition-delay: 80ms;
+
+    
+}
+#card #face {
+  background-image: url(../img/avatar.jpg);
+  background-size: 100%;
+  background-position: 0%, 20%;
+  border-radius: 40% !important;
+  height: calc(10em - 30px);
+  width: calc(10em - 25px);
+  transition: all 500ms;
+  transition-delay: 80ms;
+  z-index: 100;
+  margin-left:-5px;
+  
+}
+#card #content {
+  height: calc(10em - 30px);
+  width: calc(100% - (10em - 30px) - 30px);
+    
+}
+
+#content * {
+  margin: 5px;
+}
+#content #title {
+	
+	font-size: 1.5em;
+  
+	overflow: hidden;
+  
+	white-space: nowrap;
+  
+	margin-top:-5px;
+    
+	padding-top:3px;
+
+	color:#272EE2;
+
+}
+
+#socialcontainer {
+  z-index: 0;
+  width: 100%;
+  margin-top:-30px;
+  height:120%;
+}
+#socialcontainer .social {
+  margin: 4px;
+  overflow: hidden;
+  width: calc(1em + 5px);
+  white-space: nowrap;
+  transition: all 500ms;
+  transition-delay: 80ms;
+    
+}
+#socialcontainer .social:nth-child(1) {
+	padding-top:25px;
+	margin-left: -1.884px;
+}
+#socialcontainer .social:nth-child(2) {
+	  
+  margin-left: -7.536px;
+}
+#socialcontainer .social:nth-child(3) {
+	  
+  margin-left: -16.956px;
+}
+#socialcontainer .social:nth-child(4) {
+	  
+  margin-left: -30.144px;
+}
+#socialcontainer .social a {
+	
+  text-decoration: none;
+  
+}
+
+#socialcontainer .social {
+	  
+  width: 100%;
+  
+}
+
+#socialcontainer .social img {
+	   
+  max-width: 1em;
+  margin: 0px;
+  margin-right: 5px;
+}
+
+.social a{
+	
+	color:#8F1DE0;
+}
